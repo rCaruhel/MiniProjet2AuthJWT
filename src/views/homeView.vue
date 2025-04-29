@@ -1,14 +1,11 @@
 <template>
   <v-app>
-    <!-- Header Section -->
     <toolBar></toolBar>
-
-    <!-- Content Section (Empty for now) -->
     <v-main>
       <v-container>
         <v-row>
           <v-col>
-            <h1>Welcome to the Main Page</h1>
+            <h1>Authentification avec JWT Caruhel Bourdin</h1>
             <h2 v-if="this.token === ''">Pas Authentifié</h2>
             <h2 v-if="this.token !== ''">Authentifié</h2>
           </v-col>
@@ -27,7 +24,6 @@ export default {
   components: {ToolBar},
   methods: {
     goToLoginPage() {
-      // Redirect to login page (you can adjust this based on your routing setup)
       this.$router.push('/login');
     },
 
