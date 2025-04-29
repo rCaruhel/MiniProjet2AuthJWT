@@ -1,0 +1,5 @@
+Mini projet 2 avec authentification et token JWT
+Fait par Bourdin Lukas et Caruhel Rémy
+
+Lancer le frontend : `npm run serve` depuis /ui
+Lancer le backend : `node index.js` depuis /api
